@@ -45,7 +45,7 @@ public class Seller {
 	}
 
 	public void setName(String name) {
-		name = name;
+		this.name = name;
 	}
 
 	public List<Sale> getSale() {
