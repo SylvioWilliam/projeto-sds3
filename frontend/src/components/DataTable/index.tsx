@@ -48,7 +48,7 @@ function DataTable() {
                                 <td>{x.seller.name}</td>
                                 <td>{x.visited}</td>
                                 <td>{x.deals}</td>
-                                <td>{x.amount.toFixed}</td>
+                                <td>{x.amount.toFixed(2)}</td>
                             </tr>
                         ))}
 
